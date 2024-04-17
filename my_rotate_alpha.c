@@ -8,7 +8,7 @@ char *my_rotate_alpha(char *sentance) {
             if (sentance[i] == alphabet[j]) {
                 lettre = j;
             }
-        lettre *= 2;
+        lettre = 2 * lettre;
         while (lettre > 26) {
             lettre -= 26;
         }
